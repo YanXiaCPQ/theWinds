@@ -1,0 +1,24 @@
+用python执行Linux命令
+例1：在python中包装ls命令
+
+#!/usr/bin/env python
+#python wapper for the ls command
+import subprocess
+subprocess.call(["ls","-l"])
+在Linux中执行该命令
+ 
+
+[root@pydb python]# python ls.py
+total 8
+-rwxrwxrwx 1 root root 415 Mar 18 11:40 a.py
+-rw-r--r-- 1 root root 103 May 4      22:17 ls.py
+ 
+下面扩展一下
+ 
+
+[root@pydb python]# python ls.py
+#!/usr/bin/env python
+#python wapper for the ls command
+import subprocess
+subprocess.call(["cat","/python/ls.py"])
+以上是执行Linux下的命令和参数。非常不错的一个例子，好好记住吧

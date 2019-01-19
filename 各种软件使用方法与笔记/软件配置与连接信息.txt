@@ -1,0 +1,16 @@
+mysql5.5 :用户root 密码123456 端口:3306
+
+redis: Host：电脑IP  端口Port：6379 密码auto：123456
+
+ftp: 主机名：电脑IP 用户:root 密码：123456 端口:22
+	ftp连接方式配置：文件--站点管理器--常规：
+	1）协议：选择“FTP-文件传输协议”
+	2）加密：选择“如果可用，使用显式的FTP over TLS”
+	3）登录类型：选择“询问密码”
+	4）用户：“随意...”
+
+python版本：python3.6.4  
+git版本：git2.1.2
+mysql版本：mysql5.5
+redis版本：redis3.2.8
+anaconda版本：anaconda3-5.1.0

@@ -1,0 +1,10 @@
+python后台运行
+
+1.linux下使用命令： setsid python hello.py
+关闭终端，程序也可以后台运行。
+使用 ps -aux 可以查看当前进程。kill -9 [进程号]可关掉程序。
+
+
+2.nohup python XXX.py &  关闭终端，程序也可以后台运行。
+ps -ef |grep [进程号] 可以查看当前进程
+kill -9 [进程号]可关掉程序。

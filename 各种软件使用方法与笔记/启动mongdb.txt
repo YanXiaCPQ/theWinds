@@ -1,0 +1,6 @@
+1.在安装MongoDB的目录下（bin所在文件夹）创建一个存储数据的文件（如data）,打开data文件夹，创建一个db文件，该文件用来存储数据与配置信息
+2.进入bin文件，按住shift，按右键，选择“在此处打开命名窗口”
+3.启动:输入mongod --dbpath F:\SoftwareInstall\mongodb\bin
+4.验证已经启动。在浏览器输入 localhost:27017
+显示这句话即可：It looks like you are trying to access MongoDB over HTTP on the native driver port.
+5.别关闭该窗口，直接重新打开一个，按住shift，按右键，选择“在此处打开命名窗口”
